@@ -5,20 +5,14 @@ using UnityEngine;
 public class displayStationDetails : MonoBehaviour {
 
     //var
-	public GameObject boom;
+	public GameObject selecteditem;
 
-    public void Headset() {
-			boom.SetActive(!boom.activeInHierarchy);
+    
+	// method for action on headset station click
+	public void Headset() {
+		selecteditem.SetActive(!selecteditem.activeInHierarchy);
 			Debug.Log("testing my method is being called");
     }
 
-	// Use this for initialization
-	void Start () {
 		
-	}
-
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
