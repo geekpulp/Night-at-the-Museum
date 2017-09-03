@@ -11,7 +11,7 @@ public class displayStationDetails : MonoBehaviour {
 	// method for action on headset station click
 	public void Headset() {
 		selecteditem.SetActive(!selecteditem.activeInHierarchy);
-			Debug.Log("testing my method is being called");
+		Debug.Log("testing my method is being called");
     }
 
 		
