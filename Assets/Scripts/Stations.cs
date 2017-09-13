@@ -26,4 +26,10 @@ public class Stations : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void activateDisplay(GvrAudioSource audioSource, AudioClip audio, GameObject display)
+	{
+		audioSource.cl
+
+	}
 }
