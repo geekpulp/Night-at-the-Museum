@@ -5,7 +5,7 @@ using UnityEngine;
 public class VideoControl : MonoBehaviour {
 
     private UnityEngine.Video.VideoPlayer videoPlayer;
-    public GameObject videoOrbToPlay;
+
 
     [SerializeField]
     //private AudioSource audioSource;
@@ -25,6 +25,7 @@ public class VideoControl : MonoBehaviour {
     void Update(){
         //Play or pause the video.
         if (Input.GetKeyDown ("space")) 
+        //if (GvrPointerInputModule.Pointer.OnPointerClickDown.enabled)
         {
             if (videoPlayer.isPlaying)
                 videoPlayer.Pause ();
@@ -42,9 +43,10 @@ public class VideoControl : MonoBehaviour {
             videoPlayer.Play();
     }
 
-    public void showplayer(GameObject videoOrbToPlay)
+    public void showAndPlay(GameObject videoOrbToPlay)
     {
-        videoOrbToPlay.SetActive;
+        videoOrbToPlay.SetActive(true);
+    
     }
 
 }
