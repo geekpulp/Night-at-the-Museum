@@ -24,7 +24,6 @@ public void addScore (int newScoreValue)
 	if (score <	4)
 	    {
 		  updateScore (newScoreValue);
-		  chair = true;
 		}
 }
 void updateScore (int newScore)
