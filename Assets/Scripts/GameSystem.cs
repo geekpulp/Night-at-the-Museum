@@ -7,10 +7,7 @@ public class GameSystem : MonoBehaviour {
 
 public Text scoreText;
 public int score;
-public bool chair;
-public bool umbrella;
-public bool tour;
-public bool pool;
+
 	// Use this for initialization
 	void Start () {
 		score = 0;
